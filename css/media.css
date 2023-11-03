@@ -1,0 +1,268 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*	header start*/
+	header {
+	    padding: 0;
+	}
+	.logo {
+	    width: 150px;
+	}
+	.menu ul li a {
+	    margin-top: 5px;
+	    padding: 0px 5px !important;
+	}
+	.s_btn {
+	    margin-top: 5px;
+	    margin-left: 5px;
+	}
+	/*banner start*/
+	.banner {
+	    padding-bottom: 35px;
+	}
+	.b_text {
+	    text-align: center;
+	}
+	.b_h1 {
+		font-size: 30px;
+	    padding: 0px 10px 0px;
+	    margin: 7px 0 10px;
+	    line-height: 40px;
+	}
+	.b_p2{
+	  padding: 0 10px 5px;
+	}
+	.b_btn {
+	    padding: 10px 32px;
+	}
+	.b_img img {
+		margin-bottom: 15px;
+	    padding: 0px 10px;
+	}
+	/*	features start*/
+	.c_p {
+	    padding-bottom: 70px;
+	}
+/*	course start*/
+	.c_h1 {
+	    font-size: 27px;
+	}
+	.c_single{
+		margin-top: 30px;
+		padding: 20px 13px 25px;
+	}
+	.c_single h2 {
+	    margin: 15px 0px 3px;
+	}
+	.co_btn {
+	    margin: 15px 0px 25px;
+	}
+	.uli:not(:last-child) {
+	    margin-right: 0;
+	}
+	.c_right ul li span, .c_left ul li span {
+	    font-size: 15px;
+	}
+	/*	testimonial start*/
+	.T_text{
+	  margin-top: 20px;
+	}
+	.t_img img {
+	    padding: 0px 60px 20px;
+	}
+	.t_text {
+	    text-align: center;
+	}
+/*	footer top*/
+	.footer_top{
+		padding: 55px 0px 35px;
+	  text-align: center;
+  }
+  .ft_details{
+		padding: 0px 0px;
+	}
+	.ft_link h2{
+	  margin: 20px 0 8px;
+	}
+	/*	footer start*/
+	.footer {
+	  padding-bottom: 25px;
+	}
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*	header start*/
+	header {
+	    padding: 5px 0;
+	}
+	.logo {
+	    width: 175px;
+	}
+	.menu ul li a {
+	    margin-top: 5px;
+	    padding: 0px 5px !important;
+	}
+	.s_btn {
+	    margin-top: 5px;
+	    margin-left: 5px;
+	}
+	/*banner start*/
+	.banner {
+	    padding-bottom: 45px;
+	}
+	.b_text {
+	    text-align: center;
+	}
+	.b_h1 {
+		font-size: 40px;
+	    padding: 0px 55px 0px;
+	    margin: 7px 0 15px;
+	    line-height: 55px;
+	}
+	.b_p2{
+	  padding: 0 75px 12px;
+	}
+	.b_btn {
+	    padding: 10px 32px;
+	}
+	.b_img img {
+		margin-bottom: 25px;
+	    padding: 0px 70px;
+	}
+	/*	features start*/
+	.c_p {
+	    padding-bottom: 70px;
+	}
+/*	course start*/
+	.c_h1 {
+	    font-size: 33px;
+	}
+	.c_single {
+	    margin-top: 30px;
+	}
+/*	testimonial start*/
+	.T_text{
+	  margin-top: 35px;
+	}
+	.t_img img {
+	    padding: 0px 130px 20px;
+	}
+	.t_text {
+	    text-align: center;
+	}
+	/*	footer top*/
+	.footer_top{
+		padding: 55px 0px 40px;
+	  text-align: center;
+  }
+  .ft_details{
+		padding: 0px 60px;
+	}
+	/*	footer start*/
+	.footer {
+	  padding-bottom: 25px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header start*/
+	header {
+	    padding: 5px 0;
+	}
+	.menu ul li a {
+	    margin-top: 5px;
+	    padding: 0px 5px !important;
+	}
+	.s_btn {
+	    margin-top: 5px;
+	    margin-left: 5px;
+	}
+
+/*banner start*/
+	.banner {
+	    padding-bottom: 55px;
+	}
+	.b_text {
+	    text-align: center;
+	}
+	.b_h1 {
+	    padding: 0px 90px 0px 90px;
+	    line-height: 60px;
+	}
+	.b_p2{
+	  padding: 0 75px 12px;
+	}
+	.b_img img {
+		margin-bottom: 30px;
+	    padding: 0px 120px;
+	}
+/*	features start*/
+	.c_p {
+	    padding-bottom: 80px;
+	}
+/*	course start*/
+	.c_single {
+	    margin-top: 45px;
+	}
+	/*	testomonial start*/
+	.T_text{
+	  margin-top: 40px;
+	}
+/*	footer top*/
+	.footer_top{
+		padding: 55px 0px 45px;
+	  text-align: center;
+  }
+  .ft_details{
+		padding: 0px 70px;
+	}
+/*	footer start*/
+	.footer {
+	  padding-bottom: 25px;
+	}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*	features start*/
+	.f_single {
+	    padding: 40px 0 40px;
+	}
+/*	course start*/
+	.c_single{
+		padding: 20px 13px 25px;
+	}
+	.c_single h2 {
+	    margin: 15px 0px 3px;
+	}
+	.co_btn {
+	    margin: 15px 0px 25px;
+	}
+	.uli:not(:last-child) {
+	    margin-right: 0;
+	}
+	.c_right ul li span, .c_left ul li span {
+	    font-size: 15px;
+	}
+/*	testomonial start*/
+	.T_text{
+	  margin-top: 40px;
+	}
+}
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and and (max-width: 1399.98px){
+	
+}
+
+/*Extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+/*	banner start*/
+	.b_h1 {
+	    padding-right: 120px;
+	}
+/*features start*/
+	.f_single {
+	    padding: 65px 0 60px
+	}
+}
